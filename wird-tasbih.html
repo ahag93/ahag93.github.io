@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورد التسبيح</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Amiri', serif; background-color: #fdfaf6; }
+        .nav-link {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s, color 0.3s;
+            border: 2px solid transparent;
+            color: #047857;
+        }
+        .nav-link.active {
+            background-color: #0d9488;
+            color: white;
+            border-color: #0d9488;
+        }
+        .nav-link:not(.active):hover {
+            background-color: #ccfbf1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <nav class="bg-white/80 backdrop-blur-md rounded-xl shadow-md p-4 mb-8 sticky top-4 z-50">
+            <div class="flex flex-wrap justify-center gap-2 md:gap-4">
+                <a href="fadel-dhikr.html" class="nav-link">فضل الذكر</a>
+                <a href="wird-istighfar.html" class="nav-link">ورد الاستغفار</a>
+                <a href="wird-tasbih.html" class="nav-link active">ورد التسبيح</a>
+                <a href="azkar-sabah.html" class="nav-link">أذكار الصباح</a>
+                <a href="azkar-masaa.html" class="nav-link">أذكار المساء</a>
+                <a href="duaa-mukhtara.html" class="nav-link">أدعية مختارة</a>
+            </div>
+        </nav>
+        
+        <header class="text-center mb-10">
+           <h1 class="text-4xl md:text-5xl font-bold text-teal-700">ورد التسبيح</h1>
+           <p class="text-gray-500 mt-2">"فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُنْ مِنَ السَّاجِدِينَ"</p>
+       </header>
+       <main class="space-y-6">
+            <!-- Content Sections Here -->
+       </main>
+    </div>
+</body>
+</html>
